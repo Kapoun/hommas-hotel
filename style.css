@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+
+
+
+
+.main-photo{
+  padding: 0;
+  margin: 0;
+  background-color: #264128;
+  height: 700px;
+  color: #997C23;
+
+  
+}
+
+
+
+header {
+    background-color: #333;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: #997C23;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.nav-item a:hover {
+    text-decoration: underline 2px;
+   
+}
+
+.main-photo > img{
+    padding: 0;
+    margin: 0;
+    top: 150px; 
+    margin-left: 20px;
+}
+
+
+h1,h2{
+    position: relative;
+    top: 200px;
+    justify-content: right;
+    text-align: right;
+    right: 100px;
+    background-color: transparent;
+
+}
+h2{
+    background-color: transparent;
+}
+
+.btn{
+    position: relative;
+    justify-content: right;
+    background-color: #264128;
+    color: #997C23;
+    float: right;
+    right: 200px;
+    height: 70px;
+    width: 150px;
+    top: 300px;
+    border: 2px solid rgb(196, 42, 42);
+}
+
+.btn:hover{
+    background-color: rgb(43, 49, 49);
+}
+
+
+.container-wrap{
+    padding: 0;
+    margin: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 5rem;
+    justify-content: space-evenly
+   
+
+}
+
+
+h6{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.wrap-box > img{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid rgb(196, 42, 42);
+    margin-left: 50px;
+}
+
+h3{
+    text-align: center;
+}
+
+.wrapp-box{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    color: #997C23;
+   
+}
+
+.wrap-box > p{
+    padding: 0;
+    margin: 5px;
+    color: #997C23;
+    
+}
+    
+
+
+.wrap-box > img:hover {
+    height: 302px;
+    width: 302px;
+    transition: 1ms;
+}
+
+.wrapper{
+    padding: 0;
+    margin: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 5rem;
+    justify-content: center;
+    
+   
+}
+
+
+
+.box > img{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+.box > p,h4{
+    margin: 5px;
+    color: #997C23;
+}
+
+.box{
+   padding: 0;
+   margin: 0;
+   border: 4px solid rgb(196, 42, 42);
+   border-radius: 6px;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+.pardio-container{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flexbox;
+    background-color: rgb(161, 159, 159);
+    height: 700px;
+    color: #997C23;
+}
+
+
+.pardio > img{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    height: 500px;
+    top: 100px;
+    margin-left: 20px;
+   
+}
+
+h5{
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+.pardio{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: #264128;
+   
+   
+}
+
+
+.pardio > img{
+    padding: 0;
+    border-radius: 10px;
+}
+
+.pardio > h5{
+    padding: 0;
+    position: relative;
+    justify-content: right;
+    text-align: right;
+    right: 300px;
+    font-size: 2rem;
+    top: 170px;
+}
+
+.pardio > p{
+    padding: 5px;
+    position: relative;
+    justify-content: right;
+    text-align: right;
+    left: 300px;
+    font-size: 2rem;
+    top: 200px;
+    text-align: center;
+  
+}
+
+.icons {
+    position: relative;
+    justify-content: right;
+    align-items: center;
+    left: 870px;
+    top: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.icons > img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    justify-content: right;
+    align-items: center;
+}
